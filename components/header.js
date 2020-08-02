@@ -6,8 +6,8 @@ const Header = () => (
     <Navbar.Brand href="/">BEAT</Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link href="/">Home</Nav.Link>
-      <Nav.Link href="/a">a</Nav.Link>
-      <Nav.Link href="/b">b</Nav.Link>
+      <Nav.Link href="/morpion">Morpion</Nav.Link>
+      <Nav.Link href="/record-mic">Record Mic</Nav.Link>
     </Nav>
   </Navbar>
 );

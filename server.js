@@ -17,10 +17,10 @@ app.prepare().then(() => {
             query
         } = parsedUrl
 
-        if (pathname === '/a') {
-            app.render(req, res, '/a', query)
-        } else if (pathname === '/b') {
-            app.render(req, res, '/b', query)
+        if (pathname === '/morpion') {
+            app.render(req, res, '/morpion', query)
+        } else if (pathname === '/record-mic') {
+            app.render(req, res, '/record-mic', query)
         } else {
             handle(req, res, parsedUrl)
         }
